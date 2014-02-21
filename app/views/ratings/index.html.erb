@@ -2,10 +2,103 @@
 
 <p>Number of ratings <%= @ratings.count %></p>
 
-<ul>
-  <% @ratings.each do |rating| %>
-      <li> <%= rating %> <%= link_to rating.user.username, rating.user %> </li>
+
+  <strong><u>Lastest ratings:</u></strong>
+  <table class="table table-hover">
+    <thead>
+        <tr>
+          <th>Beer</th>
+          <th>Scrore</th>
+          <th>Rater</th>
+        </tr>
+    </thead>
+    <tbody>
+    <% @ratings.recent.each do |rating| %>
+      <tr>
+        <th><%= link_to rating.beer.name, rating.beer%></th>
+        <th><%= rating.score%></th>
+        <th><%= link_to rating.user.username, rating.user %></th>
+      </tr>
+    <% end %>
+    </tbody>
+  </table>
+
+  <strong><u>Top breweries:</u></strong>
+  <table class="table table-hover">
+    <thead>
+        <tr>
+          <th>Name</th>
+          <th>Year</th>
+          <th>Average score</th>
+        </tr>
+    </thead>
+    <tbody>
+    <% @top_breweries.each do |brewery| %>
+        <tr>
+          <th><%= link_to brewery.name, brewery %></th>
+          <th><%= brewery.year%></th>
+          <th><%= round(brewery.average_rating) %></th>
+        </tr>
+    <% end %>
+    </tbody>
+  </table>
+
+
+<strong><u>Top beers:</u></strong>
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Brewery</th>
+    <th>Average score</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @top_beers.each do |beer| %>
+      <tr>
+        <th><%= link_to beer.name, beer %></th>
+        <th><%= link_to beer.brewery.name, beer.brewery%></th>
+        <th><%= round(beer.average_rating) %></th>
+      </tr>
   <% end %>
-</ul>
+  </tbody>
+</table>
+
+<strong><u>Top styles:</u></strong>
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th>Style</th>
+    <th>Average score</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @top_styles.each do |style| %>
+      <tr>
+        <th><%= link_to style.name, style %></th>
+        <th><%= round(style.average_rating) %></th>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+
+
+  <strong><u>Most ratings:</u></strong>
+  <table class="table table-hover">
+    <thead>
+        <tr>
+          <th>Username</th>
+          <th>Ratings</th>
+        </tr>
+    </thead>
+    <tbody>
+  <% @top_raters.each do |user| %>
+        <tr>
+          <th><%= link_to user.username, user %></th>
+          <th><%= user.ratings.size%></th>
+        </tr>
+  <% end %>
+    </tbody>
+  </table>
 
 

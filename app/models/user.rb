@@ -49,4 +49,16 @@ class User < ActiveRecord::Base
     ratings_of_item.inject(0.0){ |sum ,r| sum+r.score } / ratings_of_item.count
   end
 
+  def self.top_raters(n)
+    sorted_by_ratings_desc = User.all.sort_by{ |u| -(u.ratings.size ||0) }
+
+    if (sorted_by_ratings_desc.size > n)
+      return sorted_by_ratings_desc.take(n);
+    else
+      return sorted_by_ratings_desc;
+    end
+    # palauta listalta parhaat n kappaletta
+    # miten? ks. http://www.ruby-doc.org/core-2.1.0/Array.html
+  end
+
 end

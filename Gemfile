@@ -22,7 +22,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
+gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -32,6 +32,8 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
+
+gem 'rb-readline'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
@@ -55,7 +57,21 @@ group :test do
   gem 'launchy'
   gem 'webmock'
   gem 'simplecov', require: false
+  gem 'database_cleaner', '< 1.1.0'
 end
 
 gem 'httparty'
 gem "rails-settings-cached", "0.3.1"
+
+
+gem 'jquery-turbolinks'
+
+gem 'selenium-webdriver'
+
+gem 'bootstrap-sass'
+group :development do
+  gem 'rails_layout'
+end
+
+
+gem 'rack-mini-profiler'
