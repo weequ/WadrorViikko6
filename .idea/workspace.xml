@@ -30,7 +30,13 @@
         <entry file="file://$PROJECT_DIR$/app/views/beers/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="-0.9183673" vertical-offset="0" max-vertical-offset="495">
-              <folding />
+              <folding>
+                <marker date="1393251034443" expanded="true" signature="112:611" placeholder="..." />
+                <marker date="1393251034443" expanded="true" signature="122:348" placeholder="..." />
+                <marker date="1393251034443" expanded="true" signature="129:337" placeholder="..." />
+                <marker date="1393251034443" expanded="true" signature="359:602" placeholder="..." />
+                <marker date="1393251034443" expanded="true" signature="400:579" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/ratings/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="60" selection-start="86" selection-end="86" vertical-scroll-proportion="0.059642147" vertical-offset="0" max-vertical-offset="1695">
+            <state line="2" column="60" selection-start="86" selection-end="86" vertical-scroll-proportion="-0.6122449" vertical-offset="0" max-vertical-offset="1695">
               <folding />
             </state>
           </provider>
@@ -89,6 +95,15 @@
                 <marker date="1393268267291" expanded="true" signature="211:268" placeholder="..." />
                 <marker date="1393268267291" expanded="true" signature="326:428" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.711575" vertical-offset="0" max-vertical-offset="1230">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -865,13 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="29" selection-start="1055" selection-end="1055" vertical-scroll-proportion="-4.15" vertical-offset="396" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/concerns/rating_average.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="6" selection-start="60" selection-end="60" vertical-scroll-proportion="-1.8" vertical-offset="0" max-vertical-offset="210">
@@ -968,7 +976,13 @@
     <entry file="file://$PROJECT_DIR$/app/views/beers/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="-0.9183673" vertical-offset="0" max-vertical-offset="495">
-          <folding />
+          <folding>
+            <marker date="1393251034443" expanded="true" signature="112:611" placeholder="..." />
+            <marker date="1393251034443" expanded="true" signature="122:348" placeholder="..." />
+            <marker date="1393251034443" expanded="true" signature="129:337" placeholder="..." />
+            <marker date="1393251034443" expanded="true" signature="359:602" placeholder="..." />
+            <marker date="1393251034443" expanded="true" signature="400:579" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -981,7 +995,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/ratings/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="60" selection-start="86" selection-end="86" vertical-scroll-proportion="0.059642147" vertical-offset="0" max-vertical-offset="1695">
+        <state line="2" column="60" selection-start="86" selection-end="86" vertical-scroll-proportion="-0.6122449" vertical-offset="0" max-vertical-offset="1695">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.711575" vertical-offset="0" max-vertical-offset="1230">
           <folding />
         </state>
       </provider>
