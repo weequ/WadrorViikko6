@@ -1,5 +1,7 @@
 <h2>List of ratings</h2>
 
+<% cache 'ratings', expires_in:10.minutes, skip_digest: true do %>
+
 <p>Number of ratings <%= @ratings.count %></p>
 
 
@@ -100,5 +102,6 @@
   <% end %>
     </tbody>
   </table>
+<% end %>
 
 

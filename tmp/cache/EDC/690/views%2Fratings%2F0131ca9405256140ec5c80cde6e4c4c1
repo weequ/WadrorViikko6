@@ -1,0 +1,149 @@
+o: ActiveSupport::Cache::Entry:@valueI"+ do %>
+
+<p>Number of ratings 2733</p>
+
+
+  <strong><u>Lastest ratings:</u></strong>
+  <table class="table table-hover">
+    <thead>
+        <tr>
+          <th>Beer</th>
+          <th>Scrore</th>
+          <th>Rater</th>
+        </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th><a href="/beers/1007">beer 51 -- 7</a></th>
+        <th>36</th>
+        <th><a href="/users/205">user_200</a></th>
+      </tr>
+      <tr>
+        <th><a href="/beers/1544">beer 75 -- 18</a></th>
+        <th>15</th>
+        <th><a href="/users/205">user_200</a></th>
+      </tr>
+      <tr>
+        <th><a href="/beers/489">beer 25 -- 30</a></th>
+        <th>13</th>
+        <th><a href="/users/205">user_200</a></th>
+      </tr>
+      <tr>
+        <th><a href="/beers/2383">beer 112 -- 7</a></th>
+        <th>34</th>
+        <th><a href="/users/205">user_200</a></th>
+      </tr>
+      <tr>
+        <th><a href="/beers/1950">beer 94 -- 19</a></th>
+        <th>48</th>
+        <th><a href="/users/204">user_199</a></th>
+      </tr>
+    </tbody>
+  </table>
+
+  <strong><u>Top breweries:</u></strong>
+  <table class="table table-hover">
+    <thead>
+        <tr>
+          <th>Name</th>
+          <th>Year</th>
+          <th>Average score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <th><a href="/breweries/114">brewery_98</a></th>
+          <th>1900</th>
+          <th>44.0</th>
+        </tr>
+        <tr>
+          <th><a href="/breweries/88">brewery_72</a></th>
+          <th>1900</th>
+          <th>33.4</th>
+        </tr>
+        <tr>
+          <th><a href="/breweries/32">brewery_16</a></th>
+          <th>1900</th>
+          <th>33.1</th>
+        </tr>
+    </tbody>
+  </table>
+
+
+<strong><u>Top beers:</u></strong>
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Brewery</th>
+    <th>Average score</th>
+  </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <th><a href="/beers/1638">beer 79 -- 24</a></th>
+        <th><a href="/breweries/79">brewery_63</a></th>
+        <th>50.0</th>
+      </tr>
+      <tr>
+        <th><a href="/beers/1171">beer 58 -- 21</a></th>
+        <th><a href="/breweries/58">brewery_42</a></th>
+        <th>50.0</th>
+      </tr>
+      <tr>
+        <th><a href="/beers/2438">beer 115 -- 18</a></th>
+        <th><a href="/breweries/115">brewery_99</a></th>
+        <th>50.0</th>
+      </tr>
+  </tbody>
+</table>
+
+<strong><u>Top styles:</u></strong>
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <th>Style</th>
+    <th>Average score</th>
+  </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <th><a href="/styles/2">American pale ale</a></th>
+        <th>34.0</th>
+      </tr>
+      <tr>
+        <th><a href="/styles/6">bulk</a></th>
+        <th>25.7</th>
+      </tr>
+      <tr>
+        <th><a href="/styles/1">European pale lager</a></th>
+        <th>21.9</th>
+      </tr>
+  </tbody>
+</table>
+
+
+  <strong><u>Most ratings:</u></strong>
+  <table class="table table-hover">
+    <thead>
+        <tr>
+          <th>Username</th>
+          <th>Ratings</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <th><a href="/users/101">user_96</a></th>
+          <th>29</th>
+        </tr>
+        <tr>
+          <th><a href="/users/175">user_170</a></th>
+          <th>29</th>
+        </tr>
+        <tr>
+          <th><a href="/users/131">user_126</a></th>
+          <th>29</th>
+        </tr>
+    </tbody>
+  </table>
+:ET:@created_atf1393270141.6413496:@expires_inf6e2

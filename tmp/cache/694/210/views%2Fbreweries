@@ -1,0 +1,30 @@
+o: ActiveSupport::Cache::Entry:@valueI"Z
+<h2>Koff
+</h2>
+
+<p>
+  <em>Established year:</em>
+  1897
+</p>
+
+<p>Number of beers 12 </p>
+
+<ul>
+      <li><a href="/beers/1">Iso 3</a></li>
+      <li><a href="/beers/2">Karhu</a></li>
+      <li><a href="/beers/3">Tuplahumala</a></li>
+      <li><a href="/beers/9">beer 1 -- 1</a></li>
+      <li><a href="/beers/10">beer 1 -- 2</a></li>
+      <li><a href="/beers/11">beer 1 -- 3</a></li>
+      <li><a href="/beers/12">beer 1 -- 4</a></li>
+      <li><a href="/beers/13">beer 1 -- 5</a></li>
+      <li><a href="/beers/14">beer 1 -- 6</a></li>
+      <li><a href="/beers/15">beer 1 -- 7</a></li>
+      <li><a href="/beers/16">beer 1 -- 8</a></li>
+      <li><a href="/beers/17">beer 1 -- 9</a></li>
+</ul>
+
+    <p>Has 15 ratings, average 18.4 </p>
+<a class="btn btn-primary" data-method="post" href="/breweries/1/toggle_activity" rel="nofollow">change activity</a>
+
+:ET:@created_atf1393268619.1351933:@expires_in0
